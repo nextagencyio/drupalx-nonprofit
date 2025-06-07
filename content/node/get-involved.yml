@@ -1,0 +1,583 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e1f2g3h4-a5b6-4c7d-8e9f-0a1b2c3d4e5f
+  bundle: landing
+  default_langcode: en
+  depends:
+    comm-vol-medi-4f0f-9c6e-164a416d574c: media
+    dona-han-medi-4f0f-9c6e-164a416d574c: media
+    supp-mee-medi-4f0f-9c6e-164a416d574c: media
+    envi-cle-medi-4f0f-9c6e-164a416d574c: media
+    chil-edu-medi-4f0f-9c6e-164a416d574c: media
+    heal-sup-medi-4f0f-9c6e-164a416d574c: media
+    food-dis-medi-4f0f-9c6e-164a416d574c: media
+default:
+  revision_uid:
+    - target_id: 1
+  status:
+    - value: true
+  uid:
+    - target_id: 1
+  title:
+    - value: 'Get Involved'
+  created:
+    - value: 1724541785
+  promote:
+    - value: false
+  sticky:
+    - value: false
+  revision_translation_affected:
+    - value: true
+  field_hide_page_title:
+    - value: true
+  metatag:
+    - tag: meta
+      attributes:
+        name: title
+        content: 'Get Involved | Join Hope Foundation Mission'
+    - tag: meta
+      attributes:
+        name: description
+        content: 'Join our mission to transform communities. Volunteer, donate, attend events, and make a lasting impact with Hope Foundation.'
+    - tag: link
+      attributes:
+        rel: canonical
+        href: '/get-involved'
+  path:
+    - alias: /get-involved
+      langcode: en
+      pathauto: 0
+  field_content:
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-hero-001-4001-a001-000000000001
+          bundle: hero
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541785
+          behavior_settings:
+            - value: {}
+          revision_translation_affected:
+            - value: true
+          field_heading:
+            - value: 'Join Our Mission of Hope'
+              format: restricted_html
+          field_hero_layout:
+            - value: image_top
+          field_media:
+            - entity: supp-mee-medi-4f0f-9c6e-164a416d574c
+          field_summary:
+            - value: 'Be part of the change you want to see. Together, we can transform lives and strengthen communities through meaningful action.'
+              format: basic_html
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-text-001-4001-a001-000000000001
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_body:
+            - value: '<p>Every act of kindness, every hour volunteered, and every dollar donated creates ripple effects that transform lives. Whether you have five minutes or five hours, every contribution matters in building stronger, more resilient communities.</p><p>Discover the many ways you can get involved and make a meaningful difference with Hope Foundation.</p>'
+              format: full_html
+              summary: ''
+          field_eyebrow:
+            - value: 'Making a Difference'
+          field_text_layout:
+            - value: centered
+          field_title:
+            - value: 'Your Impact Starts Here'
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-volunteer-001-4001-a001-000000000001
+          bundle: card_group
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_title:
+            - value: 'Volunteer Opportunities'
+          field_card:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-vol-001-4001-a001-000000000001
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Education & Tutoring'
+                  field_summary:
+                    - value: 'Help students succeed through tutoring, mentoring, and educational support programs. Make a direct impact on academic achievement.'
+                      format: basic_html
+                  field_media:
+                    - entity: chil-edu-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/volunteer/education'
+                      title: 'Volunteer in Education'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-vol-002-4001-a001-000000000002
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Community Health'
+                  field_summary:
+                    - value: 'Support healthcare initiatives, wellness programs, and health education in underserved communities.'
+                      format: basic_html
+                  field_media:
+                    - entity: heal-sup-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/volunteer/health'
+                      title: 'Health Volunteer'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-vol-003-4001-a001-000000000003
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Food Security'
+                  field_summary:
+                    - value: 'Assist with food distribution, meal preparation, and nutrition education programs for families in need.'
+                      format: basic_html
+                  field_media:
+                    - entity: food-dis-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/volunteer/food'
+                      title: 'Food Program Volunteer'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-vol-004-4001-a001-000000000004
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Environmental Action'
+                  field_summary:
+                    - value: 'Join community clean-up efforts, tree planting, and environmental education initiatives to protect our planet.'
+                      format: basic_html
+                  field_media:
+                    - entity: envi-cle-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/volunteer/environment'
+                      title: 'Environmental Volunteer'
+                      options: {  }
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-ways-001-4001-a001-000000000001
+          bundle: sidebyside
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_eyebrow:
+            - value: 'Ways to Give'
+          field_features:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-give-001-4001-a001-000000000001
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: heart
+                  field_summary:
+                    - value: '<strong>Monthly Giving</strong> - Sustain our mission with regular monthly donations that provide predictable support for ongoing programs.'
+                      format: basic_html
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-give-002-4001-a001-000000000002
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: gift
+                  field_summary:
+                    - value: '<strong>In-Kind Donations</strong> - Donate goods, supplies, and services that directly support our programs and reduce operational costs.'
+                      format: basic_html
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-give-003-4001-a001-000000000003
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: star
+                  field_summary:
+                    - value: '<strong>Legacy Giving</strong> - Create lasting impact through planned giving, memorial donations, and estate gifts that continue your values.'
+                      format: basic_html
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-give-004-4001-a001-000000000004
+                  bundle: bullet
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_icon:
+                    - value: users
+                  field_summary:
+                    - value: '<strong>Corporate Partnerships</strong> - Partner with us through corporate sponsorships, employee giving programs, and team volunteer opportunities.'
+                      format: basic_html
+          field_link:
+            - uri: 'internal:/donate'
+              title: 'Donate Now'
+              options: {  }
+          field_media:
+            - entity: dona-han-medi-4f0f-9c6e-164a416d574c
+          field_sidebyside_layout:
+            - value: left
+          field_summary:
+            - value: '<p>Your financial support enables us to expand our reach, develop new programs, and respond to emerging community needs. Every gift, regardless of size, helps us create positive change.</p>'
+              format: basic_html
+          field_title:
+            - value: 'Support Our Mission'
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-community-001-4001-a001-000000000001
+          bundle: card_group
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_title:
+            - value: 'Community Engagement'
+          field_card:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-eng-001-4001-a001-000000000001
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Attend Events'
+                  field_summary:
+                    - value: 'Join our fundraising events, community forums, and awareness campaigns to connect with like-minded individuals.'
+                      format: basic_html
+                  field_media:
+                    - entity: supp-mee-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/events'
+                      title: 'View Events'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-eng-002-4001-a001-000000000002
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Spread Awareness'
+                  field_summary:
+                    - value: 'Help amplify our message by sharing our mission on social media and with your networks.'
+                      format: basic_html
+                  field_media:
+                    - entity: comm-vol-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'https://facebook.com/hopefoundation'
+                      title: 'Follow Us'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-eng-003-4001-a001-000000000003
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Board & Committees'
+                  field_summary:
+                    - value: 'Apply your professional skills by joining our board of directors or specialized advisory committees.'
+                      format: basic_html
+                  field_media:
+                    - entity: supp-mee-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/governance'
+                      title: 'Learn About Governance'
+                      options: {  }
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-impact-001-4001-a001-000000000001
+          bundle: text
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_body:
+            - value: '<p>Every action you take with Hope Foundation creates a multiplier effect. Your volunteer hours inspire others to serve. Your donations enable us to help more families. Your advocacy amplifies our voice for change.</p><blockquote><p>"The best way to find yourself is to lose yourself in the service of others." - Mahatma Gandhi</p></blockquote><p>Ready to make a difference? Contact our volunteer coordinator at volunteer@hopefoundation.org or call (555) 123-HOPE to get started today.</p>'
+              format: full_html
+              summary: ''
+          field_eyebrow:
+            - value: 'Your Difference'
+          field_text_layout:
+            - value: centered
+          field_title:
+            - value: 'Together We Transform Communities'
+    - entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: gi-faq-001-4001-a001-000000000001
+          bundle: accordion
+          default_langcode: en
+        default:
+          status:
+            - value: true
+          created:
+            - value: 1724541786
+          behavior_settings:
+            - value: {  }
+          revision_translation_affected:
+            - value: true
+          field_title:
+            - value: 'Frequently Asked Questions'
+          field_accordion_item:
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-faq-item1-4001-a001-000000000001
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_body:
+                    - value: '<p>No prior experience is required for most volunteer positions. We provide comprehensive training and ongoing support to ensure you feel confident and prepared. Our volunteer coordinator will match you with opportunities that align with your interests, skills, and availability.</p>'
+                      format: full_html
+                      summary: ''
+                  field_title:
+                    - value: 'Do I need experience to volunteer?'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-faq-item2-4001-a001-000000000002
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_body:
+                    - value: '<p>We welcome volunteers of all ages and backgrounds. Volunteers under 18 may need parental consent and supervision depending on the activity. Many of our programs offer family-friendly volunteer opportunities where children can participate alongside adults.</p>'
+                      format: full_html
+                      summary: ''
+                  field_title:
+                    - value: 'What age groups can volunteer?'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-faq-item3-4001-a001-000000000003
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_body:
+                    - value: '<p>Time commitments vary by program. We have opportunities ranging from one-time events (2-4 hours) to regular weekly commitments (2-3 hours per week). We work with your schedule to find meaningful ways for you to contribute based on your availability.</p>'
+                      format: full_html
+                      summary: ''
+                  field_title:
+                    - value: 'How much time do I need to commit?'
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: gi-faq-item4-4001-a001-000000000004
+                  bundle: accordion_item
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_body:
+                    - value: '<p>Your donations support our four core program areas: education, healthcare, food security, and environmental action. We also allocate funds for program development, volunteer training, and organizational sustainability. You can view our annual impact report for detailed financial transparency.</p>'
+                      format: full_html
+                      summary: ''
+                  field_title:
+                    - value: 'How are donations used?'
+  field_summary:
+    - value: 'Join Hope Foundation mission through volunteering, donating, and community engagement. Discover meaningful ways to create lasting impact in education, healthcare, food security, and environmental action.'
+  field_thumbnail:
+    - entity: supp-mee-medi-4f0f-9c6e-164a416d574c

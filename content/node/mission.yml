@@ -306,7 +306,7 @@ default:
           field_media:
             - entity: supp-mee-medi-4f0f-9c6e-164a416d574c
           field_link:
-            - uri: 'internal:/contact'
+            - uri: 'internal:/get-involved'
               title: 'Partner With Us'
               options: {  }
           field_features:
@@ -432,7 +432,7 @@ default:
           field_media:
             - entity: dona-han-medi-4f0f-9c6e-164a416d574c
           field_link:
-            - uri: 'internal:/volunteer'
-              title: 'Volunteer With Us'
+            - uri: 'internal:/get-involved'
+              title: 'Get Involved'
               options: {  }
 

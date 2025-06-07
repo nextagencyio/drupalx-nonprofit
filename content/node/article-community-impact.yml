@@ -5,8 +5,7 @@ _meta:
   bundle: article
   default_langcode: en
   depends:
-    9a33874e-ce03-4f0f-9c6e-164a416d574c: media
-    b8cb9697-e8a3-4bb2-a4c6-7daccdab8407: media
+    food-dis-medi-4f0f-9c6e-164a416d574c: media
 default:
   revision_uid:
     - target_id: 1
@@ -50,16 +49,18 @@ default:
         <p>This milestone was made possible by the dedication of over 200 volunteers who donate their time weekly to prepare, package, and distribute meals throughout our community.</p>
         <h3>Expanding Our Reach</h3>
         <p>Building on this success, we are launching new initiatives to reach even more families, including mobile food pantries and partnerships with local schools to address childhood hunger.</p>
+        <h3>How You Can Help</h3>
+        <p>Join us in fighting food insecurity in our community. Whether you can volunteer a few hours each month, make a donation, or simply spread awareness, every action makes a difference in the lives of our neighbors.</p>
       format: full_html
       summary: ''
   field_lead:
     - value: '<p>Our community food program celebrates serving 50,000 meals to families in need, demonstrating the power of collective compassion and community support.</p>'
       format: full_html
   field_media:
-    - entity: 9a33874e-ce03-4f0f-9c6e-164a416d574c
+    - entity: food-dis-medi-4f0f-9c6e-164a416d574c
   field_subhead:
     - value: 'Community Impact'
   field_summary:
     - value: 'Through the dedication of volunteers and community support, our food program has served 50,000 nutritious meals, addressing food insecurity with compassion and dignity.'
   field_thumbnail:
-    - entity: b8cb9697-e8a3-4bb2-a4c6-7daccdab8407
+    - entity: food-dis-medi-4f0f-9c6e-164a416d574c

@@ -70,7 +70,7 @@ default:
           field_hero_layout:
             - value: image_top
           field_media:
-            - entity: comm-vol-medi-4f0f-9c6e-164a416d574c
+            - entity: chil-edu-medi-4f0f-9c6e-164a416d574c
           field_summary:
             - value: "Our comprehensive programs address critical community needs through education, healthcare, nutrition, and environmental stewardship."
               format: basic_html
@@ -418,8 +418,8 @@ default:
                   field_media:
                     - entity: food-dis-medi-4f0f-9c6e-164a416d574c
                   field_link:
-                    - uri: 'internal:/contact'
-                      title: 'Get Food Assistance'
+                    - uri: 'internal:/get-involved'
+                      title: 'Volunteer with Food Program'
                       options: {  }
             - entity:
                 _meta:
@@ -445,7 +445,7 @@ default:
                   field_media:
                     - entity: envi-cle-medi-4f0f-9c6e-164a416d574c
                   field_link:
-                    - uri: 'internal:/contact'
+                    - uri: 'internal:/get-involved'
                       title: 'Join Environmental Projects'
                       options: {  }
             - entity:
@@ -502,7 +502,7 @@ default:
               format: basic_html
               summary: ''
           field_link:
-            - uri: 'internal:/contact'
-              title: 'Contact Us Today'
+            - uri: 'internal:/get-involved'
+              title: 'Get Involved'
               options: {  }
 
